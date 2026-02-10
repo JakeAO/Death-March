@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /gm-vault-dm47x9/
