@@ -1,0 +1,88 @@
+# Site settings
+name: Death March
+title: Death March
+description: "Campaign Hub for Death March – A Savage Worlds Survival Road Trip Through the Zombie Apocalypse"
+url: "https://jakeao.github.io/Death-March/"
+baseurl: ""
+
+# Use a GitHub Pages-compatible theme
+remote_theme: jekyll/minima
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Collections: public player content is published, GM content is private
+collections:
+  info:
+    output: true
+    permalink: /info/:path/
+  world:
+    output: true
+    permalink: /world/:path/
+  sessions:
+    output: true
+    permalink: /sessions/:path/
+  gm:
+    output: true
+    permalink: /gm/:path/
+
+# Defaults for front matter
+defaults:
+  - scope:
+      path: ""
+      type: "info"
+    values:
+      layout: page
+      toc: true
+  - scope:
+      path: ""
+      type: "world"
+    values:
+      layout: page
+      toc: true
+  - scope:
+      path: ""
+      type: "sessions"
+    values:
+      layout: page
+      toc: true
+  - scope:
+      path: ""
+      type: "gm"
+    values:
+      layout: page
+      toc: true
+
+# Excludes from the site build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - .github/
+
+# Plugins supported by GitHub Pages
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-remote-theme
+
+# Minima options
+minima:
+  date_format: "%Y-%m-%d"
+  social_links: []
+  skin: dark
+
+# Permalinks
+permalink: pretty
+
+# Site navigation
+header_pages:
+  - info.md
+  - world.md
+  - sessions.md

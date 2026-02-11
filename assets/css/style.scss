@@ -1,0 +1,301 @@
+---
+---
+
+@import "minima/skins/dark";
+@import "minima/initialize";
+
+// Death March Theme: Survival/Zombie Apocalypse/Post-Apocalyptic Road Trip
+// Dark, gritty, weathered aesthetic with blood red accents and survival vibes
+
+// Color Palette
+$background-dark: #0d0d0d;      // Asphalt black
+$background-medium: #1a1612;    // Dried blood brown-black
+$background-card: #231f1a;      // Weathered concrete
+$primary-accent: #8b0000;       // Dark blood red
+$secondary-accent: #c45911;     // Rust orange
+$text-primary: #d4d4d4;         // Faded white
+$text-muted: #8a8a7a;           // Dust grey
+$border-color: #3d3530;         // Worn metal
+$warning-red: #cc2936;          // Danger/blood
+$survival-green: #4a5f3a;       // Military/survival green
+
+// Override Minima dark skin
+body {
+  background-color: $background-dark;
+  color: $text-primary;
+  font-family: 'Courier New', Courier, monospace, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+// Headers with survival/apocalyptic styling
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Impact', 'Arial Black', 'Helvetica', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: $text-primary;
+  text-transform: uppercase;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5em;
+  border-bottom: 3px solid $primary-accent;
+  padding-bottom: 0.3em;
+  color: $warning-red;
+}
+
+h2 {
+  font-size: 2em;
+  color: $primary-accent;
+  border-bottom: 2px solid $border-color;
+  padding-bottom: 0.2em;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: $secondary-accent;
+}
+
+// Links with weathered/survival feel
+a {
+  color: $secondary-accent;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  
+  &:hover {
+    color: lighten($secondary-accent, 15%);
+    text-decoration: underline;
+  }
+  
+  &:visited {
+    color: darken($secondary-accent, 10%);
+  }
+}
+
+// Site header
+.site-header {
+  background-color: $background-medium;
+  border-bottom: 4px solid $primary-accent;
+  border-top: 2px solid $border-color;
+  
+  .site-title {
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: $warning-red;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    
+    &:hover {
+      text-decoration: none;
+      color: lighten($warning-red, 10%);
+    }
+  }
+  
+  .site-nav {
+    .page-link {
+      color: $text-muted;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.9em;
+      letter-spacing: 0.05em;
+      
+      &:hover {
+        color: $secondary-accent;
+      }
+    }
+  }
+}
+
+// Main content area
+.page-content {
+  background: linear-gradient(to bottom, $background-dark 0%, $background-medium 100%);
+  padding: 2em 0;
+  min-height: calc(100vh - 200px);
+}
+
+.wrapper {
+  background-color: rgba($background-card, 0.8);
+  border: 2px solid $border-color;
+  border-radius: 2px;
+  padding: 2em;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+}
+
+// Post/page content
+.post-content, .page-content article {
+  h1, h2, h3 {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+// Lists with custom styling
+ul, ol {
+  li {
+    margin-bottom: 0.5em;
+    
+    &::marker {
+      color: $primary-accent;
+      font-weight: bold;
+    }
+  }
+}
+
+// Blockquotes with weathered/survival feel
+blockquote {
+  border-left: 5px solid $primary-accent;
+  background-color: rgba($background-dark, 0.6);
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  font-style: italic;
+  color: $text-muted;
+  
+  p {
+    margin-bottom: 0;
+  }
+}
+
+// Code blocks
+code, pre {
+  background-color: $background-dark;
+  border: 1px solid $border-color;
+  border-radius: 2px;
+  font-family: 'Courier New', Courier, monospace;
+  color: $survival-green;
+}
+
+pre {
+  padding: 1em;
+  overflow-x: auto;
+  
+  code {
+    border: none;
+    background-color: transparent;
+  }
+}
+
+// Tables
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0;
+  background-color: rgba($background-card, 0.7);
+  border: 2px solid $border-color;
+  
+  th, td {
+    border: 1px solid $border-color;
+    padding: 0.75em;
+    text-align: left;
+  }
+  
+  th {
+    background-color: $background-medium;
+    color: $warning-red;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  tr:hover {
+    background-color: rgba($primary-accent, 0.15);
+  }
+}
+
+// Footer
+.site-footer {
+  background-color: $background-medium;
+  border-top: 3px solid $primary-accent;
+  color: $text-muted;
+  
+  a {
+    color: $text-muted;
+    
+    &:hover {
+      color: $secondary-accent;
+    }
+  }
+}
+
+// Special elements
+.post-meta {
+  color: $text-muted;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid $border-color;
+  margin: 2em 0;
+}
+
+// Home page styling
+.home {
+  .post-list {
+    h3 {
+      margin-top: 0;
+    }
+  }
+}
+
+// Emphasis for game mechanics
+em {
+  color: $survival-green;
+  font-weight: 600;
+  font-style: normal;
+}
+
+strong {
+  color: $warning-red;
+  font-weight: 700;
+}
+
+// Custom class for atmospheric quotes
+.atmospheric-quote {
+  font-family: 'Georgia', serif;
+  font-size: 1.1em;
+  text-align: center;
+  margin: 2em 0;
+  padding: 1.5em;
+  border-top: 2px solid $border-color;
+  border-bottom: 2px solid $border-color;
+  color: $text-muted;
+  font-style: italic;
+  background-color: rgba($background-dark, 0.5);
+}
+
+// Warning/danger callout boxes
+.warning-box {
+  background-color: rgba($warning-red, 0.15);
+  border-left: 5px solid $warning-red;
+  padding: 1em;
+  margin: 1em 0;
+  
+  strong {
+    color: $warning-red;
+  }
+}
+
+// Responsive adjustments
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  .wrapper {
+    padding: 1em;
+  }
+  
+  .site-header .site-title {
+    font-size: 1.5em;
+  }
+}
