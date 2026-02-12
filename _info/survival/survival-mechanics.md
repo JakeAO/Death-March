@@ -5,8 +5,6 @@ topic: Survival
 summary: Rules for surviving the apocalypse—food, water, exposure, and exhaustion
 ---
 
-# Survival Mechanics
-
 In Death March, staying alive isn't just about fighting zombies. Hunger, thirst, exposure, and exhaustion are just as deadly.
 
 ## The Survival Checklist

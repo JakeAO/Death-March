@@ -5,8 +5,6 @@ index: [NUMBER]
 summary: Brief one-sentence summary of what happened
 ---
 
-# Session [NUMBER]: [TITLE]
-
 **Date:** [YYYY-MM-DD]  
 **Location:** [Where the convoy was/traveled]  
 **Miles Traveled:** [X miles]

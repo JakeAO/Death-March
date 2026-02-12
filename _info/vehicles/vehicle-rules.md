@@ -5,8 +5,6 @@ topic: Vehicles
 summary: Operating vehicles, chases, vehicular combat, and maintenance
 ---
 
-# Vehicle Rules
-
 In Death March, vehicles are your lifeline. They carry your supplies, protect you from the dead, and get you closer to safety. But fuel is scarce, roads are dangerous, and one breakdown could be fatal.
 
 ## Vehicle Basics

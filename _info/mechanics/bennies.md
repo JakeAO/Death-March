@@ -5,8 +5,6 @@ topic: Mechanics
 summary: Using Bennies, Wild Cards vs Extras, and hero points
 ---
 
-# Bennies & Wild Cards
-
 ## What Are Bennies?
 
 **Bennies** (short for "benefits") are tokens that represent luck, fate, and heroic determination. They're your get-out-of-jail-free cards—use them to survive, succeed, and save the day.

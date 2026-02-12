@@ -5,8 +5,6 @@ topic: Mechanics
 summary: Combat rules, attacks, damage, and wounds
 ---
 
-# Combat & Damage
-
 ## Combat Overview
 
 Combat in Savage Worlds is fast and deadly. Every round represents about 6 seconds of action.

@@ -5,8 +5,6 @@ topic: Mechanics
 summary: Using skills, making tests, and cooperative rolls
 ---
 
-# Skills & Tests
-
 ## Making a Skill Test
 
 To attempt an action:

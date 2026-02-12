@@ -9,8 +9,10 @@ This page contains player-facing rules clarifications, cheat sheets, and game me
 
 ## Core Resources
 
-- **[Savage Worlds Adventure Edition](https://peginc.com/savage-settings/savage-worlds/)** – The core rulebook
-- **[Savage Worlds SWADE Test Drive](https://peginc.com/store/savage-worlds-adventure-edition-test-drive-lankhmar/)** – Free quick-start rules
+- **[Core Rulebook]({{ '/info/mechanics/rulebook/' | relative_url }})** – The core rulebook (Digital Copy)
+- **[Savage Worlds Adventure Edition](https://peginc.com/product/savage-worlds-adventure-edition-core-rules-pdf-swade/)** - Rulebook from Pinnacle Entertainment
+- **[Savage Worlds Test Drive](https://peginc.com/store/deadlands-the-weird-west-blood-on-the-range-savage-worlds-test-drive-swade/)** – Free quick-start rules
+- **[Character Sheet PDF](https://peginc.com/wp-content/uploads/2019/09/SWADE_Character_Sheet.pdf)** - Official, editable character sheet
 
 ## Quick Reference
 

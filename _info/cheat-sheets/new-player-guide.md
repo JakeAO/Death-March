@@ -5,8 +5,6 @@ topic: Cheat Sheets
 summary: Essential advice for new players joining Death March
 ---
 
-# New Player Guide
-
 Welcome to Death March! This is a survival-focused campaign using the Savage Worlds system. Here's what you need to know to get started.
 
 ## What is Savage Worlds?

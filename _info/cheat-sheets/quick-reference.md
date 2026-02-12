@@ -5,8 +5,6 @@ topic: Cheat Sheets
 summary: One-page reference for core Savage Worlds mechanics
 ---
 
-# Savage Worlds Quick Reference
-
 ## The Dice
 
 Roll **Trait Die + Wild Die (d6)** and take the higher result
