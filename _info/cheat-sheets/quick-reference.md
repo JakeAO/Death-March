@@ -38,6 +38,7 @@ Roll **Trait Die + Wild Die (d6)** and take the higher result
 
 ### Initiative
 - Draw a card each round (Jokers act whenever they want with +2 to all rolls)
+- When a Joker is dealt, **all players gain 1 Benny** (GM gains 1 per Wild Card)
 - Act in order from highest to lowest (Ace high, Joker wild)
 
 ### Attack Roll
@@ -50,10 +51,16 @@ Roll **Trait Die + Wild Die (d6)** and take the higher result
 - Compare to target's **Toughness**
 - Success = **Shaken**, Raise = **Wound** (and Shaken)
 - Wild Cards can take 3 Wounds before Incapacitation
+- If the target is already Shaken and takes another Shaken result from damage, they take a Wound instead
+
+*SWADE p. 94*
 
 ### Shaken
 - Can't take actions except recover (Spirit roll)
-- Success = recover, Raise = recover + act normally
+- Can only take **free actions** (including movement)
+- **Spirit roll** at start of turn: success removes Shaken and you may act
+
+*SWADE p. 94*
 
 ## Bennies
 
@@ -64,12 +71,17 @@ Roll **Trait Die + Wild Die (d6)** and take the higher result
 - **Soak:** Spend 1 benny after taking damage to make a Vigor roll and possibly avoid a Wound
 - **Recover:** Spend 1 benny to automatically recover from Shaken
 
+*Bennies: SWADE p. 89*
+*Soak: SWADE p. 96*
+
 ## Wounds & Healing
 
-- **Wounds:** Wild Cards can take 3 Wounds, each gives -1 to Pace and all Trait rolls
+- **Wounds:** Wild Cards can take 3 Wounds, each gives -1 to all Trait rolls
 - **Incapacitated:** After 3 Wounds, roll on Injury Table
 - **Natural Healing:** Vigor roll every 5 days; success heals 1 Wound
-- **Medical Care:** Healing skill within 1 hour of injury; success heals 1 Wound
+- **Medical Care:** Healing roll within the **Golden Hour**; success removes 1 Wound, raise removes 2
+
+*SWADE p. 96*
 
 ## Common Skills
 
@@ -96,11 +108,14 @@ Roll **Trait Die + Wild Die (d6)** and take the higher result
 
 ## Cover Penalties
 
-| Cover | Penalty to hit | Armor bonus |
-|-------|----------------|-------------|
-| Light (bushes, curtains) | -2 | +2 |
-| Medium (trees, furniture) | -4 | +4 |
-| Heavy (stone walls, vehicles) | -6 | +6 |
+| Cover | Penalty to hit |
+|-------|----------------|
+| Light (50% or less obscured) | -2 |
+| Medium (50-75% obscured, or prone) | -4 |
+| Heavy (25% or less visible) | -6 |
+| Near total cover (arrow slits, etc.) | -8 |
+
+*SWADE p. 99*
 
 ---
 

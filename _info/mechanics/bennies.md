@@ -15,24 +15,34 @@ summary: Using Bennies, Wild Cards vs Extras, and hero points
 - GM may award extra Bennies for great roleplaying, clever ideas, or heroic actions
 - Unused Bennies do NOT carry over between sessions
 
+*SWADE p. 89*
+
 ## Using Bennies
 
 You can spend a Benny to:
 
 ### 1. Reroll a Trait Test
 - After you roll, spend 1 Benny to reroll any Trait test
-- Keep the **highest** of the original or new roll
+- Keep the **highest** total of your rolls
 - You can keep spending Bennies to reroll the same test
+- **Critical Failures stand** and cannot be rerolled
 
 ### 2. Recover from Shaken
 - Spend 1 Benny to **automatically** recover from being Shaken
-- No roll needed—you're back in action!
+- This is instant and can be done at any time
 
 ### 3. Soak Damage
 - Immediately after taking damage, spend 1 Benny to make a **Vigor roll**
 - **Success:** Reduce damage by 1 Wound
 - **Raise:** Reduce damage by 2 Wounds
-- You can Soak multiple times for multiple Wounds (each costs 1 Benny)
+- If you Soak all Wounds from the attack, you also remove **Shaken**
+- You can’t Soak more than once per attack, but you may spend Bennies to **reroll** the Soak roll
+
+### 4. Draw a New Action Card
+- When initiative is in rounds, spend 1 Benny to draw a new Action Card after cards are dealt
+
+### 5. Influence the Story
+- Spend 1 Benny to add a reasonable story detail or useful item (GM approval)
 
 ## Earning Bennies
 
@@ -77,7 +87,8 @@ The GM may award Bennies during play for:
 When you draw a **Joker** for initiative:
 - You act whenever you want this round
 - You get **+2 to all Trait and damage rolls** this round
-- This is effectively like having free Bennies for the round!
+- **All players gain 1 Benny**
+- The GM gains **1 Benny per Wild Card** in the encounter
 
 ---
 

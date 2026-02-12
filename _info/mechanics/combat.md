@@ -14,6 +14,7 @@ Combat in Savage Worlds is fast and deadly. Every round represents about 6 secon
 At the start of each round:
 1. **Deal Cards:** Each player and GM draws one card per PC/group of enemies
 2. **Jokers:** Jokers are wild—act whenever you want and get +2 to all Trait and damage rolls this round!
+  - **All players gain 1 Benny**; the GM gains **1 Benny per Wild Card** in the encounter
 3. **Act in Order:** From highest card to lowest (Ace high, then King, Queen, etc.)
 
 ## Attack Rolls
@@ -32,7 +33,6 @@ At the start of each round:
 - **Short range:** No penalty
 - **Medium range:** -2
 - **Long range:** -4
-- **Extreme range:** -8
 
 ## Damage
 
@@ -46,15 +46,19 @@ When you hit:
 - **Success:** Target is **Shaken**
 - **Raise:** Target takes a **Wound** (and is Shaken)
 - **Multiple Raises:** Each raise beyond the first = additional Wound
+- **Already Shaken:** If the target is already Shaken and takes a damage result that would Shake them again, they take a Wound instead (and remain Shaken)
+
+*SWADE p. 94*
 
 ## Shaken
 
 When Shaken, a character:
-- Cannot take actions except attempt to recover
-- **Recover:** Roll Spirit at start of turn
-  - **Success:** Recover and act normally
+- Can only take **free actions** (including movement)
+- **Recover:** Roll Spirit at the start of your turn (free action)
+  - **Success:** No longer Shaken and may act normally
   - **Failure:** Remain Shaken
-  - **1 on Spirit die and Wild Die:** Take a Wound!
+
+*SWADE p. 94*
 
 **Spending a Benny:** Automatically recover from Shaken
 
@@ -63,7 +67,7 @@ When Shaken, a character:
 **Extras** (minor NPCs) are Incapacitated after one Wound.
 
 **Wild Cards** (PCs and major NPCs) can take 3 Wounds:
-- Each Wound gives **-1 penalty** to Pace and all Trait rolls (cumulative)
+- Each Wound gives **-1 penalty** to all Trait rolls (cumulative)
 - After 3 Wounds, character is **Incapacitated**
 
 ### Incapacitation
@@ -75,7 +79,9 @@ Roll on the **Injury Table** (d100) to determine fate:
 Immediately after taking damage, spend a **Benny** to make a **Vigor roll**:
 - **Success:** Reduce damage by 1 Wound
 - **Raise:** Reduce damage by 2 Wounds
-- You can Soak multiple times for multiple Wounds
+- You can’t Soak more than once per attack, but you may spend Bennies to reroll the Soak roll
+
+*SWADE p. 96*
 
 ## Called Shots
 
@@ -87,9 +93,8 @@ Target a specific location for special effects:
 ## Two Weapons
 
 Fighting with two weapons:
-- Make one attack roll at no penalty
-- If you hit, add +1 to damage
-- If using different weapons, use the lower damage die
+- Make two separate attacks as a **Multi-Action** (normally -2 to both)
+- Off-hand attacks take an additional **-2** unless you have **Ambidextrous**
 
 ---
 

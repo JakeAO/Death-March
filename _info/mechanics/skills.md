@@ -29,21 +29,24 @@ When any die shows its maximum value:
 
 When two characters compete:
 - Both roll their appropriate skill
-- Highest result wins
-- Ties: Highest die type wins; if still tied, re-roll
+- Highest total wins
+- Ties generally mean **no effect** (in Tests, ties favor the defender)
 
-## Cooperative Rolls
+## Support Rolls
 
-Allies can help with a task:
-- Each helper makes the same skill roll at -2
-- Each success gives the leader +1 to their roll
-- Leader makes their roll with bonuses
+Allies can help with a task using Support:
+- Each helper makes a related skill roll
+- **Success:** +1 to the leader’s roll
+- **Raise:** +2 to the leader’s roll
+- Total Support bonus is capped at **+4**
 
 ## Unskilled Attempts
 
 If you don't have the skill:
-- Roll the linked attribute at **-2** (e.g., Smarts-2 for untrained Repair)
-- Some skills can't be attempted untrained (marked with * in rules)
+- Roll a **d4** for the skill die and subtract **-2** from the total
+- The GM may rule some tasks can’t be attempted unskilled
+
+*SWADE p. 89*
 
 ## Common Modifiers
 
@@ -100,12 +103,10 @@ If you fail a task:
 - **Stealth:** Sneak and hide
 - **Thievery:** Pick locks, disable devices
 
-## Support Actions
+## Tests and Defend (Quick)
 
-Instead of attacking, you can use skills to help allies:
-- **Test:** Use Intimidation or Taunt to make enemy Distracted/Vulnerable (-2 to next roll)
-- **Trick:** Use opposed skill to make target Distracted or Vulnerable
-- **Defend:** Use full action to add +4 to Parry until next turn
+- **Tests:** Opposed rolls (often vs Smarts or Spirit). On success, make the target **Distracted** or **Vulnerable**; with a raise, you can apply both.
+- **Defend:** Use your action to gain **+4 Parry** until your next turn.
 
 ---
 

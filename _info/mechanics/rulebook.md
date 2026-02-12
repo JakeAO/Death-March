@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Core Rulebook
-topic: Mechanics
 summary: Digital copy of the Savage Worlds Adventure Edition (SWADE) core rulebook.
+tags: nested
 ---
 
 Below is the core rulebook for Savage Worlds Adventure Edition.
